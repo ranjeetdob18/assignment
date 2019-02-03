@@ -26,4 +26,8 @@ $ node index.js
 
 ## You're done!
 
-You will have a server successfully running on `http://localhost:8000`. Your REST / JSON API Endpoint will be available at `http://localhost:8000/user/create`.
+You will have a server successfully running on `http://localhost:8000`. Your REST / JSON API Endpoint will be available at ``.
+For user 
+* http://localhost:8000/users/create (crate new user)
+* http://localhost:8000/users/user-id (update user with user-id)
+* http://localhost:8000/user/user-id (delete user with user-id)
