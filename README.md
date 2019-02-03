@@ -50,7 +50,7 @@ For user API with sample given
 * http://localhost:8000/user/5c5697ff82506440d00cdcb2 (delete user with user-id)
 
 For Hotel API with sample given
-* http://localhost:8000/hotels/create (crate new user)
+* http://localhost:8000/hotels/create (crate new hotel)
 ```
 {
 	"name" : "Treebo Laxvas",
@@ -63,7 +63,7 @@ For Hotel API with sample given
 ```
 
 For Room API with sample given
-* http://localhost:8000/rooms/create (crate new user)
+* http://localhost:8000/rooms/create (crate new room)
 ```
 {
 	"hotel_id" : "5c569d2582506440d00cdcb6",
