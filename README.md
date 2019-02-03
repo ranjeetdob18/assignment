@@ -27,7 +27,49 @@ $ node index.js
 ## You're done!
 
 You will have a server successfully running on `http://localhost:8000`. Your REST / JSON API Endpoint will be available at ``.
-For user 
+For user API with sample given
 * http://localhost:8000/users/create (crate new user)
-* http://localhost:8000/users/user-id (update user with user-id)
-* http://localhost:8000/user/user-id (delete user with user-id)
+```
+{
+	
+	"fullName" : "Ranjeet Bhardwaj",
+	"mobile" : 8009056458,
+	"email" : "ranjeet@gmail.com"
+}
+
+```
+* http://localhost:8000/users/5c5697ff82506440d00cdcb2 (update user with user-id)
+```
+{
+	"fullName" : "Ranjeet Bhardwaj",
+	"mobile" : 8009056458,
+	"email" : "ranjeet@gmail.com"
+}
+
+```
+* http://localhost:8000/user/5c5697ff82506440d00cdcb2 (delete user with user-id)
+
+For Hotel API with sample given
+* http://localhost:8000/hotels/create (crate new user)
+```
+{
+	"name" : "Treebo Laxvas",
+	"contact" : 8009056458,
+	"description" : "This property also has one of the best-rated locations in Thane! Guests are happier about it compared to other properties in the area.",
+	"address" : "Near Lodha Paradise, Bhivandi Bypass Road, Majiwade, Thane, , 400601 Thane, India",
+	"location" : {"type"  :"Point","coordinates" : [72.9776,19.2079]}
+}
+
+```
+
+For Room API with sample given
+* http://localhost:8000/rooms/create (crate new user)
+```
+{
+	"hotel_id" : "5c569d2582506440d00cdcb6",
+	"capacity" : 6,
+	"types" : "Queen",
+	"price" : 7999
+}
+
+```
